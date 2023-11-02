@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Daily Grind - Coffee Shop</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        /* Custom styles for this template */
+        /* Add your own custom CSS here */
+        .hero-section {
+            background-image: url('img/hero.jpeg');
+            background-size: cover;
+            height: 500px;
+        }
+
+        .hero-text {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            /* font-size: 5vw; */
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        section.hero-section {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">The Daily Grind</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section - "Our Story" -->
+    <section class="hero-section">
+        <!-- <img src="img/hero.jpeg" alt="" class="img-fluid" style="max-width: 100%; height: auto;"> -->
+        <div class="hero-text text-center text-white w-100">
+          <div class="container d-flex flex-column position-relative">
+            <div class="row">
+              <div class="col-lg-8 offset-lg-2">
+                <div class="text-container position-absolute">
+                  <h2 class="text-shadow">Our Story</h2>
+                  <p class="text-shadow">Discover the rich history and passion behind The Daily Grind, your perfect coffee destination.</p>
+                  <a href="about.html" class="btn btn-light btn-lg mt-3">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Promotions and Special Offers Section -->
+    <section class="container text-center">
+        <h2>Special Offers</h2>
+        <p>Check out our latest promotions and discounts!</p>
+        <a href="menu.html" class="btn btn-primary btn-lg">Discover More</a>
+    </section>
+
+    <!-- Featured Menu Items Section -->
+    <section class="container text-center">
+        <h2>Featured Menu Items</h2>
+        <p>Explore our handpicked selection of delicious coffee and pastries.</p>
+        <a href="menu.html" class="btn btn-primary btn-lg">View Menu</a>
+    </section>
+
+    <!-- Testimonials and Reviews Section -->
+    <section class="container">
+        <h2>What Our Customers Say</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <p>"Best coffee in the neighborhood! Highly recommended!"</p>
+                <p>- David Billings</p>
+            </div>
+            <div class="col-md-4">
+                <p>"Fantastic ambiance and great service. Will definitely visit again!"</p>
+                <p>- Tamika Roberts</p>
+            </div>
+            <div class="col-md-4">
+                <p>"The pastries are to die for! A must-try for all foodies."</p>
+                <p>- Armando Perez</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Integration Section -->
+    <section class="container text-center">
+        <h2>Follow Us</h2>
+        <!-- Add your social media feed or links here -->
+        <a href="#" class="btn btn-outline-dark">Follow on Instagram</a>
+        <a href="#" class="btn btn-outline-dark">Follow on Facebook</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-4 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Location</h5>
+                    <p>1234 Coffee Street, Cityville, State, Country</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Information</h5>
+                    <p>Phone: 123-456-7890</p>
+                    <p>Email: info@coffeeshop.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Google Maps</h5>
+                    <!-- Replace the iframe with your own Google Maps iframe -->
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="300" height="200" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=your%20location&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+       
